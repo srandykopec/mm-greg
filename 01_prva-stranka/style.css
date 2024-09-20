@@ -1,0 +1,88 @@
+h1{
+    color: #e9755c;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 150%;
+}
+
+h4{
+    color: grey;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+
+h2{
+    color: #e9755c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3{
+    color: #4d4d4d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+ul{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 18px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.A{
+    text-align: center;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2;
+}
+
+.B{
+   color: grey;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: lighter;
+   font-size: small;
+   margin-top: 10px;
+   margin-left: 20%;
+   margin-right: 20%; 
+}
+
+hr{
+    border: 0.5px solid lightgray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
