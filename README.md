@@ -55,8 +55,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
    
      
 
-👉**##**  
-Finty v CSS**
+👉**Finty v CSS**
 https://css-tricks.com   
 
 
@@ -64,5 +63,5 @@ https://css-tricks.com
 https://www.vzhurudolu.cz/prirucka/css-kaskada  
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity    
     
-    
+
   👉https://developer.mozilla.org/en-US/  
