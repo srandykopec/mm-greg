@@ -1,0 +1,29 @@
+h2{   /*  selektor TYP*/
+    color: crimson;
+    font-size: 33px;
+}
+
+.perex{
+    font-style: italic;
+}
+
+strong{ 
+    color:#9bca03; 
+} 
+
+#preciarkni{ 
+    text-decoration: line-through;  
+    text-transform: uppercase;  
+    color: deepskyblue;
+    } 
+
+    text-transform
+    text-align
+    letter-spacing
+    word-spacing
+    line-height
+    
+    font-weight
+    font-style
+    font-size
+    font-family
