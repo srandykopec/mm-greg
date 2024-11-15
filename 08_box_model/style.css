@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');  /* naimportoval som font zo stránky google fonts*/ 
+
+.hlavny{
+    font-family: Pacifico, arial, sans-serif;
+    border-top: 9px rgb(61, 226, 105) ridge  ;
+    border-right: 13px rgb(230, 135, 235) double  ;
+    border-bottom: 13px skyblue dashed  ;
+    border-left: 20px rgb(224, 221, 31) solid;
+    background-color: gainsboro ;
+    padding: 80px 0px 36px 170px;
+    margin: 30px 20px; /*prirestor od borderu smerom von*/
+}
+
+
+body{
+    font-family: "Quicksand", serif;
+    width: 798px;
+    border: 3px solid skyblue;
+    margin: 0px auto;
+    color: darkcyan;
+}
+
+aside{
+    color: blueviolet;
+    display: flex;  /* elementy ktoré obsahuje aside budú vedľa seba*/
+}
+
+li{
+    display: inline; /* väčšinou sú elementy dipslay: block, čiže zaberajú celú šírku riadku, tu hovorím aby nebol na celú šírku riadku, ale aby v ňom zaberal len toľko aký je veľký */
+}
+
+.vlocka{
+    width: 50%;  /* budem mať 50% šírky svojho rodiča, ktorým je element <body>*/
+    
+}
