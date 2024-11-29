@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoselektory a preudoelementy</title>
+    <link rel="stylesheet" href="07_pseudo.css">
+</head>
+<body>
+    <header>
+        <h1>Web dizajn s CSS pseudotriedami</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Domov</a></li>
+                <li><a href="#">O nás</a></li>
+                <li><a href="#">Služby</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>O našich službách</h2>
+            <p class="description">Naša spoločnosť poskytuje profesionálne služby v oblasti webdizajnu, programovania a optimalizácie webových stránok.</p>
+            <button class="cta-button">Zisti viac</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WebDesign. Všetky práva vyhradené.</p>
+    </footer>
+</body>
+</html>
+
+
+<!-- 
+
+Inštrukcie:
+Dokončite kód a upravte vzhľad stránky podľa nasledovných bodov:
+
+Menu položky - hover efekt:
+
+Pri prechode myšou nad jednotlivými položkami menu (li a), zmeňte pozadie na tmavší odtieň (#D90368) a pridajte podčiarknutie textu.
+Použite pseudotriedu :hover na tento efekt.
+Pseudoelementy - prvý nadpis:
+
+Pomocou pseudoelementu ::before pridajte pred nadpis v hlavičke (h1) symbol "💻".
+Nastavte symbol na rovnakú farbu ako text nadpisu a uistite sa, že má dostatočný odstup od textu.
+Efekt na tlačidlo:
+
+Keď používateľ prejde myšou nad tlačidlo (.cta-button), zmeňte jeho farbu pozadia na tmavší odtieň žltej (#FFC300) a pridajte jemný efekt tieňa.
+Použite pseudotriedu :hover.
+Prvý odstavec - zvýraznenie prvého písmena:
+
+Upravte prvý odstavec (.description) tak, aby jeho prvé písmeno bolo väčšie a odlíšené inou farbou (použite pseudoelement ::first-letter).
+Výber textu:
+
+Pridajte štýl pre vybratý text na celej stránke (::selection), zmeňte farbu pozadia vybraného textu na svetložltú (#FFD700) a farbu textu na tmavosivú (#2E294E).
+Skrytý odkaz na Kontakt:
+
+Skryte poslednú položku v navigácii (Kontakt) na mobilných zariadeniach pomocou pseudotriedy :last-child a media queries (použite šírku obrazovky pod 600px).
+Formátovanie tlačidla - disabled stav:
+
+Vytvorte nový štýl pre tlačidlo (button:disabled) s nastavením svetlosivej farby a neaktívneho vzhľadu. Potom skúste tlačidlo v HTML na chvíľu vypnúť (atribút disabled).
+
+-->
