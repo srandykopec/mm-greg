@@ -23,7 +23,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 nav ul li a {
@@ -61,3 +61,53 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/**/
+/* doplneny kod */
+/**/
+
+li:hover{
+    background-color: #D90368;
+    text-decoration: underline;
+}
+
+h1::before{
+    content: "💻 "; /* Pridanie symbolu pred nadpis */
+}
+
+
+.cta-button:hover{
+    background-color: #FFC300;
+    box-shadow: 7px 5px 5px #820263;
+    border-radius: 15px;
+}
+
+.description::first-letter{  /*zmena prveho pismena*/
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+
+::selection{
+    background-color: #FFD700;
+    color: #2E294E;
+}
+
+@media screen and (max-width: 600px) {
+    li:last-child{
+        visibility: hidden; 
+    } 
+}
+
+.cta-button:disabled{
+    background-color: lightgray;
+}
+
+li{
+    border-right: 2px solid black ;
+}
+
+li:last-child{
+    border: none;
+}
+
