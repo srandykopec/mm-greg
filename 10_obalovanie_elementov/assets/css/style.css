@@ -20,8 +20,26 @@ img{
 
 h1,h2{
     font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+h3{
+    font-family: "Outfit", serif;
+
 }
 
-p{
+p, li{
     font-family: "Outfit", serif;
+    font-weight: 400;
+}
+
+.priprava{
+    background-color: hsl(330, 100%, 98%);
+    line-height: 1.8em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.priprava > h3{
+    color: hsl(332, 51%, 32%);
+
 }
