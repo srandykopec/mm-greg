@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+body {
+    color: #fff; 
+    font: 20px "Courier Bold", Georgia, serif; font-weight: bold;
+    background: #f7f6d3;
+    padding: 1em;
+}
+
+body, a {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header, nav, article, aside, footer {
+    padding: 1.2em; 
+    background: #3b9ae1;
+    border-radius: .5em;
+    margin: 5px;
+}
+
+header  { background: #e1803b;}
+nav     { background: #45d03e; } 
+article { background: #1230d7; }
+aside   { background: #181a30; }
+footer  { background:#ed34c2;}
