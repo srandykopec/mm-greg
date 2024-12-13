@@ -24,8 +24,50 @@ header, nav, article, aside, footer {
     margin: 5px;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: stretch;
+}
+
 header  { background: #e1803b;}
-nav     { background: #45d03e; } 
-article { background: #1230d7; }
-aside   { background: #181a30; }
-footer  { background:#ed34c2;}
+
+nav{
+    background: #45d03e;
+    order: 1;
+    
+ } 
+
+article{
+    background: #1230d7;
+}
+
+aside{ 
+    background: #181a30;
+    order: 3;
+    flex-basis: 30%;
+}
+
+main{
+    order: 2;
+    height: auto;
+}
+
+footer  { 
+    background:#ed34c2;
+}
+
+@media screen and (max-width:700px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+/* 
+flex-grow: Ako veľký kus dostane, ak je miesto navyše?
+flex-shrink: Ako veľmi sa zmenší, ak je miesta málo?
+flex-basis: Aká veľkosť je základ, keď ešte nič nie je pridelené?
+ */
