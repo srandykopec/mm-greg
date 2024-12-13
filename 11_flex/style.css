@@ -10,8 +10,9 @@ main{
     margin: 0;
     border: 2px orange solid;   
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -22,12 +23,25 @@ p{
 
 p:nth-child(1){
     background-color: plum;
+    order: 2;
+    flex-grow: .5;
 }
 
 p:nth-child(2){
     background-color: burlywood;
+    order: 3;
+    flex-grow: 3;
 }
 
 p:nth-child(3){
     background-color: cyan;
+    order: 1;
 }
+
+
+
+/* 
+flex-grow: Ako veľký kus dostane, ak je miesto navyše?
+flex-shrink: Ako veľmi sa zmenší, ak je miesta málo?
+flex-basis: Aká veľkosť je základ, keď ešte nič nie je pridelené?
+ */
