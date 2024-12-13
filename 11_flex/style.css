@@ -1,0 +1,30 @@
+ html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    margin: 0;
+    border: 2px orange solid;   
+}
+
+p{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.prvy{
+    background-color: plum;
+}
+
+.druhy{
+    background-color: burlywood;
+}
+
+.treti{
+    background-color: cyan;
+}
