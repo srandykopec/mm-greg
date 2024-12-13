@@ -17,14 +17,14 @@ p{
     margin: 20px;
 }
 
-.prvy{
+p:nth-child(1){
     background-color: plum;
 }
 
-.druhy{
+p:nth-child(2){
     background-color: burlywood;
 }
 
-.treti{
+p:nth-child(3){
     background-color: cyan;
 }
