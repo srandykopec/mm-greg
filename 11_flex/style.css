@@ -9,6 +9,9 @@ main{
     height: 100%;
     margin: 0;
     border: 2px orange solid;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 p{
