@@ -27,22 +27,27 @@ aside{
 
 
 @media screen and (min-width: 769px ) and (max-width:1024px) {
+
+ /* 1   (flex-grow): Umožňuje elementu zväčšiť sa, ak je dostupný priestor.
+1 (flex-shrink): Element sa môže zmenšiť, ak nie je dostatok miesta. 
+(flex-basis): Zabezpečuje, že každý element bude zaberať polovicu šírky mínus medzery.
+*/
     
     .wrapper{
         display: flex;
         flex-wrap: wrap;
-        
+        gap: 1.2em;
     }
 
     nav{
         order: 1;
-        width: 50%;
+        flex: 1 1 calc(50% - 10px);
         
     }
 
     aside{
         order: 2;
-        width: 50%;
+        flex: 1 1 calc(50% - 10px);
     
         
     }
