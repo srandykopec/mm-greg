@@ -17,3 +17,71 @@ main{
 aside{
     background-color: #6c6c6c;
 }
+
+
+@media screen and (max-width:768px) {
+    nav{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 769px ) and (max-width:1024px) {
+    
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    nav{
+        order: 1;
+        width: 50%;
+        
+    }
+
+    aside{
+        order: 2;
+        width: 50%;
+    
+        
+    }
+
+    main{
+        order: 3;
+       
+
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    .container{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+
+    .wrapper{
+        display: flex;
+        gap: 20px;
+    }
+
+    nav{
+        order: 1;
+    
+    }
+
+    aside{
+        order: 3;    
+        
+    }
+
+    main{
+        order: 2;
+       
+
+    }
+
+}
