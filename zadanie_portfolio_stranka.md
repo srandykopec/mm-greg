@@ -55,3 +55,9 @@ Uistite sa, že dizajn obsahuje:
 - **Domovská stránka** – Poskytuje jasné a stručné informácie o autorovi a jeho službách?  
 - **Portfólio** – Sú projekty dobre prezentované a vizuálne atraktívne? Sú k nim popisy?  
 - **Kontakt** – Obsahuje stránka všetky potrebné kontaktné údaje (formulár, email, sociálne siete, tel. číslo)?  
+
+## Odovzdanie
+- vyexportované wireframy a dizajny v jpg/png mobilnej aj desktopovej verzie  
+- odkaz na figmu, cez ktorý si môžem váš projekt otvoriť.  
+
+
